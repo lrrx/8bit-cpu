@@ -1,0 +1,41 @@
+0 MMR 
+0 MMW
+0 IMR 
+0 IMW
+
+1 ADD
+1 SUB
+1 NOT
+1 AND
+1 ORR
+1 XOR
+1 SHL
+1 SHR
+1 SRL
+1 SRR
+1 INC
+1 DEC
+1 JPR
+1 CLR
+1 PSH
+1 POP
+1 MRR
+1 MRW
+1 CMP
+
+//single address (local jump, direct push)
+JMP = 0x00 | O2,
+JPE = 0x01 | O2,
+JNE = 0x02 | O2,
+JPZ = 0x03 | O2,
+JNZ = 0x04 | O2,
+JPC = 0x05 | O2,
+JNC = 0x06 | O2,
+JPM = 0x07 | O2,
+JPL = 0x08 | O2,
+PSI = 0x09 | O2, //push immediate
+
+
+//no arguments
+NOP = 0x00 | O3,
+RET = 0x01 | O3,

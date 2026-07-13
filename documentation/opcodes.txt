@@ -1,0 +1,39 @@
+
+Zu Implementieren als Mindestanforderung
+
+
+Befehl mit 8 Bit Konstante
+CMD0[15..12],1,Reg[10..8]const[7..0]
+
+Befehl mit 3 Registern
+CMD0[15..12],0,Reg_Result[10..8],IMOPb[7],CMD1[6],Reg_Op1[5..3],Reg_Op0[2..0] 
+
+
+
+
+Instructionword (IW)
+IMOPb[7],IMOPa[11],CMD1[6],CMD0[15..12], Reg_Result, Reg_Op1, Reg_Op0
+
+
+
+Befehlsliste 
+
+ADD R1, R2, R3 ; R1 = R2+R3; 0x00
+SUB R1, R2, R3 ; R1 = R2-R3; 0x01
+MUL ; 0x02 
+DIV ; 0x03
+SHL ; 0x04
+SHR ; 0x05
+NEG ; 0x06
+
+
+AND ; 0x09
+OR  ; 0x0A
+XOR ; 0x0B
+NXOR ; 0x0C
+NOT  ; 0x0D 
+ADDC  ; R1 = R2+R3+C ; 0E
+SUBC ; 0x0F
+
+
+

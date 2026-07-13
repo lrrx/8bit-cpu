@@ -1,0 +1,5 @@
+1111 1 010 10101010 #LI  load imm8 to R2
+#1101 1 010 00000101 #OUT jump to page[r1] by writing to out 5
+0000 0 010 11010001 #ADDI add 1 to R2
+1101 1 010 00000110 #OUT write R2 to out 6
+1110 1 011 00000110 #IN  read out 6 to R3

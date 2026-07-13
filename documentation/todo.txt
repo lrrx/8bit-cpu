@@ -1,0 +1,12 @@
+V #implement proper flag overwrite logic
+V #test and fix JLR (REG_A_IS_REG_RES flag was missing in second cycle)
+V #implement arbitrary write from wire in i/o registerfile (e.g. for keyboard input) -> no longer use standard registerfile
+V #implement missing overflow flag logic in alu
+
+#calling convention code example
+#implement cycle-skip on 1-cycle instructions for speedup
+#r7 <-> trap through io
+
+#create an instruction that reads a ram location based on a counter and then increments the counter
+#better loop instructions?
+#create an instruction that jumps to reg0 if reg1 is 0 + opposite case
