@@ -12,3 +12,6 @@ Logisim simulation of a simple 8 bit CPU with 16 bit instruction width and multi
 
 ## IO
 <img width="1021" height="1189" alt="image" src="https://github.com/user-attachments/assets/2913b4d5-43cc-4568-b6c3-f14809027578" />
+
+## Design/Logic Tables
+<img width="3084" height="1220" alt="image" src="https://github.com/user-attachments/assets/6530badb-8bd7-459b-9dba-b03931f22e30" />
